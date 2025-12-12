@@ -14,6 +14,11 @@ const VocabSchema = mongoose.Schema(
          required: true,
          trim: true
       },
+      note: {
+         type: String,
+         trim: true,
+         default: ''
+      },
       pinyin: {
          type: String,
          required: true,
